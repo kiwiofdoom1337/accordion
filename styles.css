@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 35%;
+  margin: 30px auto;
+  padding: 60px 100px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 0.87rem;
+  margin-bottom: 10px;
+}
+
+.black-box {
+  color: white;
+  background-color: black;
+  padding: 15px 20px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.drop-down {
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+  font-size: 1.4rem;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.white-box {
+  border: 2px solid black;
+  padding: 15px 20px;
+  border-radius: 10px;
+  line-height: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
